@@ -1,0 +1,42 @@
+#home{
+    /* border: 2px solid blue; */
+    height: auto;
+    /* background-image: url(/Images/CoverImage.jpg); */
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.home-text{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-greeting{
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 6vw;
+    text-align: center;
+    
+}
+button#home-enquiry-button{
+    background: rgba(41, 41, 231, 0.822);
+    /* border: 2px solid red; */
+    width: 30%;
+    border-radius: 10px;
+    padding: 12px 25px;
+    border-width: 2px;
+}
+#home-enquiry-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(3, 131, 187, 1);
+    background-color: rgba(3, 131, 187, 1);    
+}

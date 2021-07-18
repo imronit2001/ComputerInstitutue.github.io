@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS\header.css">
     <link rel="stylesheet" href="CSS\mobile.css">
+    <link rel="stylesheet" href="CSS/home.css">
     
     <!-- Google Fonts -->
     <!-- Great Vibes  -->
@@ -25,8 +26,8 @@
             Ronit Computer Institute
             <pre>Sthirpara Road, Jagadal - 743127</pre>
         </div>
-        <button class="btn__purple" id="trigger">&#9776;</button>
-        <div class="modal__wrapper">
+        <!-- <button class="btn__purple" id="trigger">&#9776;</button> -->
+        <!-- <div class="modal__wrapper">
             <div class="modal__container">
                 <div><button class="close">&times;</button></div>
                 <div>
@@ -42,20 +43,39 @@
                 </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     </header>
-    <script src="JavaScripts/NavbarModal.js"></script>
+    <!-- <script src="JavaScripts/NavbarModal.js"></script> -->
 
     
     <section id="home">
+        <img src="/Images/CoverImage.jpg" alt="Image">
+        <div class="home-text"> 
             <div class="home-greeting">
-                <h1>Leading and Best Computer Training Institute</h1>
+              Leading and Best <br> Computer Training Institute
             </div>
-            <div class="home-enquiry-button">
-                <a href="#">Enquire Now</a>
-            </div>
+            <button id="home-enquiry-button"><a href="">Enquire Now</a></button>
+        </div>
     </section>
-    
+    <button class="btn__purple" id="trigger">&#9776;</button>
+    <div class="modal__wrapper">
+        <div class="modal__container">
+            <div><button class="close">&times;</button></div>
+            <div>
+            <ul id="menu-bar">
+                <li><a href="#company-logo">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#galley">Gallery</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <script src="JavaScripts/NavbarModal.js"></script>
     <section id="courses">
         <div class="section-heading-text">
             <h1>Courses</h1>    

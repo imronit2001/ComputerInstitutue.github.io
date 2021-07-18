@@ -38,7 +38,7 @@ header{
     /* border: 2px solid rebeccapurple; */
     text-align: center;
     font-size: 1.5vw;
-    margin: 0;
+    margin: -15px;
     padding: 0;
     font-family: 'Asar', serif;
 }
@@ -82,6 +82,7 @@ button#trigger{
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, #ff3300e3 6%, #ff0000b9 77%);
+    opacity: 1;
 }
 .modal__container li{
     font-size: 20px;
@@ -140,12 +141,7 @@ section{
     /* margin-top: 60px; */
     background: rgb(241, 237, 237);
 }
-#home{
-    height: 800px;
-    background-image: url(/Images/CoverImage.jpg);
-    background-size: 100% ;
-    background-repeat: no-repeat;
-}
+
 img{
     width: 100%;
 }
