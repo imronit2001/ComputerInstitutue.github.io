@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="CSS\header.css">
     <link rel="stylesheet" href="CSS\mobile.css">
     <link rel="stylesheet" href="CSS/home.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     
     <!-- Google Fonts -->
     <!-- Great Vibes  -->
@@ -20,7 +23,7 @@
 <body>
     <header>
         <div id="company-logo">
-            <img src="Images/logo.jpg" alt="logo">
+            <img src="Images/logo1.jpg" alt="logo">
         </div>
         <div id="company-name">
             Ronit Computer Institute
@@ -50,17 +53,45 @@
     
     <section id="home">
         <img src="/Images/CoverImage.jpg" alt="Image">
-        <div class="home-text"> 
+        <div class="home-text">
             <div class="home-greeting">
               Leading and Best <br> Computer Training Institute
             </div>
-            <button id="home-enquiry-button"><a href="">Enquire Now</a></button>
+            <button id="home-enquiry-button">Enquire Now</button>
         </div>
+        <div class="enquiry-wrapper">
+            <div class="enquiry-container">
+                    <button class="close">&times;</button>
+                    <div class="main-block">
+                        <div class="left-part">
+                          <i class="fas fa-envelope"></i>
+                          <i class="fas fa-at"></i>
+                          <i class="fas fa-mail-bulk"></i>
+                        </div>
+                        <form action="/">
+                          <h1 id="send-enquiry">Send Enquiry</h1>
+                          <div class="info">
+                            <input class="fname" type="text" name="name" placeholder="Full name">
+                            <input type="text" name="name" placeholder="Email">
+                            <input type="text" name="name" placeholder="Phone number">
+
+                          </div>
+                          <p>Message</p>
+                          <div>
+                            <textarea rows="4"></textarea>
+                          </div>
+                          <button class="enquire-submit" type="submit" href="/">Submit</button>
+                        </form>
+                      </div>
+            </div>
+        </div>
+        <script src="/JavaScripts/EnquireNow.js"></script>
     </section>
+    <script src="/JavaScripts/EnquireNow.js"></script>
     <button class="btn__purple" id="trigger">&#9776;</button>
     <div class="modal__wrapper">
         <div class="modal__container">
-            <div><button class="close">&times;</button></div>
+            <div><button id="navbar-close">&times;</button></div>
             <div>
             <ul id="menu-bar">
                 <li><a href="#company-logo">Home</a></li>
@@ -76,6 +107,7 @@
         </div>
     </div>
     <script src="JavaScripts/NavbarModal.js"></script>
+    
     <section id="courses">
         <div class="section-heading-text">
             <h1>Courses</h1>    

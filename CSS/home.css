@@ -1,6 +1,7 @@
 #home{
     /* border: 2px solid blue; */
     height: auto;
+    height: 1000px;
     /* background-image: url(/Images/CoverImage.jpg); */
     background-size: 100% ;
     background-repeat: no-repeat;
@@ -25,18 +26,141 @@
     
 }
 button#home-enquiry-button{
-    background: rgba(41, 41, 231, 0.822);
+    background: #1c87c9;
     /* border: 2px solid red; */
-    width: 30%;
+    width: 40%;
     border-radius: 10px;
-    padding: 12px 25px;
+    padding: 1%;
+    margin: 1% 10%;
     border-width: 2px;
-}
-#home-enquiry-button a{
     text-decoration: none;
     color: white;
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: rgba(255, 255, 255, 1);
     border-color: rgba(3, 131, 187, 1);
-    background-color: rgba(3, 131, 187, 1);    
+    cursor: pointer;
 }
+button#home-enquiry-button:hover{
+    background: #2371a0;
+}
+.enquiry-wrapper{
+    position: fixed;
+    left:0;
+    top:0;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+    
+}
+.enquiry-container{
+    background: #fff;
+    width: 560px;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+    transform: translateY(-100%);
+    transition: all .3s ease-in-out;
+}
+.enquiry-container button.close {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+}
+.enquiry-container button.close:hover {
+    color: red;
+}
+.enquiry-active{
+    opacity: 1;
+    pointer-events: auto;
+}
+.enquiry-wrapper.enquiry-active .enquiry-container{
+    transform: translateY(0px);
+}
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #1c87c9;
+    }
+    form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+    }
+    .fas {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    color: #fff;
+    }
+    .fa-envelope {
+    transform: rotate(-20deg);
+    }
+    .fa-at , .fa-mail-bulk{
+    transform: rotate(10deg);
+    }
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    .enquire-submit {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1c87c9; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button.enquire-submit:hover {
+    background: #2371a0;
+    }    
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .enquiry-container button.close {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .left-part, form {
+    width: 50%;
+    }
+    .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+    }
+    .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+    .fa-mail-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+    }
+    }

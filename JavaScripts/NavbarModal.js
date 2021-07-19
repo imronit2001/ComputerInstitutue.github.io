@@ -1,6 +1,6 @@
 const trigger = document.querySelector('#trigger');
 const modalWrapper = document.querySelector('.modal__wrapper');
-const closeBtn = document.querySelector('.close');
+const closeBtn = document.querySelector('#navbar-close');
 const menu = document.querySelector('#menu-bar')
 
 trigger.addEventListener('click', function(){

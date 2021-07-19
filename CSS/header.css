@@ -17,9 +17,9 @@ header{
 #company-logo{
     /* border: 2px solid blue; */
     margin: 0px 2px 0px 5px;
-    width:12vw;
+    width:10vw;
     height: 10vw;
-    max-width: 100px;
+    /* max-width: 100px; */
 }
 #company-logo img{
     width: 100%;
@@ -38,7 +38,7 @@ header{
     /* border: 2px solid rebeccapurple; */
     text-align: center;
     font-size: 1.5vw;
-    margin: -15px;
+    margin: -3%;
     padding: 0;
     font-family: 'Asar', serif;
 }
@@ -48,10 +48,13 @@ button#trigger{
     width: 30px;
     height: 30px;
     position: fixed;
-    right: 0px;
-    top: 0px;
+    right: 10px;
+    top: 5px;
     font-size: 10px;
     background: linear-gradient(to bottom, #ff3300e3 6%, #ff0000b9 77%);
+}
+button#trigger:hover{
+    transform: scale(1.5);
 }
 .modal__wrapper{
     position: fixed;
@@ -70,7 +73,7 @@ button#trigger{
 
 .modal__container {
     background: #fff;
-    width: 200px;
+    width: 250px;
     height: 70%;
     max-width: 90%;
     padding: 20px;
@@ -83,7 +86,13 @@ button#trigger{
     align-items: center;
     background: linear-gradient(to bottom, #ff3300e3 6%, #ff0000b9 77%);
     opacity: 1;
+    border-radius: 8px;
 }
+.modal__container:hover{
+    background: linear-gradient(to bottom, #ff3300ef 6%, #ff0000d2 77%);
+    
+}
+
 .modal__container li{
     font-size: 20px;
     margin-top: 10px;
@@ -101,6 +110,7 @@ button#trigger{
 }
 .modal__container a:hover{
     color: black;
+    transform: scale(2);
 }
 .btn__purple {
     background:  #6B46C1;
@@ -115,18 +125,19 @@ button#trigger{
     align-items: center;
     justify-content: flex-end;
 }
-.modal__container button.close {
+.modal__container #navbar-close {
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 25px;
+    top: 20px;
     font-size: 32px;
     background: none;
     border: none;
     outline: none;
     cursor: pointer;
 }
-.modal__container button.close:hover {
+.modal__container #navbar-close:hover {
     color: white;
+    transform: scale(2);
 }
 .active {
     opacity: 1;
@@ -139,7 +150,7 @@ button#trigger{
 section{
     height: 1000px;
     /* margin-top: 60px; */
-    background: rgb(241, 237, 237);
+    /* background: rgb(241, 237, 237); */
 }
 
 img{
