@@ -147,12 +147,6 @@ button#trigger:hover{
     transform: translateY(0px);
 }
 
-section{
-    height: 1000px;
-    /* margin-top: 60px; */
-    /* background: rgb(241, 237, 237); */
-}
-
 img{
     width: 100%;
 }

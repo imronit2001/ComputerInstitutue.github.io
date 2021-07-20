@@ -1,7 +1,6 @@
 #home{
     /* border: 2px solid blue; */
     height: auto;
-    height: 1000px;
     /* background-image: url(/Images/CoverImage.jpg); */
     background-size: 100% ;
     background-repeat: no-repeat;
@@ -84,6 +83,7 @@ button#home-enquiry-button:hover{
 }
 .enquiry-container button.close:hover {
     color: red;
+    transform: scale(1.2);
 }
 .enquiry-active{
     opacity: 1;

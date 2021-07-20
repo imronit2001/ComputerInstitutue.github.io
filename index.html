@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="CSS\header.css">
     <link rel="stylesheet" href="CSS\mobile.css">
     <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/courses.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <!-- Google Fonts -->
     <!-- Great Vibes  -->
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -18,6 +20,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Asar&display=swap" rel="stylesheet">
     <!-- Merienda -->
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda&display=swap" rel="stylesheet">
+    <!-- Crimson Text  -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+
+
     <title>ComputerInstitute</title>
 </head>
 <body>
@@ -48,9 +54,6 @@
             </div>
         </div> -->
     </header>
-    <!-- <script src="JavaScripts/NavbarModal.js"></script> -->
-
-    
     <section id="home">
         <img src="/Images/CoverImage.jpg" alt="Image">
         <div class="home-text">
@@ -127,9 +130,7 @@
                         here to provide you the best testing training.
                     </p>
                 </div>
-                <div class="course-enquiry-button">
-                    <a href="#">Enquire Now</a>
-                </div>
+                <button class="course-register-button crb1">Register</button>
             </div>
             <div class="course-container">
                 <div class="course-container-image">
@@ -145,9 +146,7 @@
                         honored patrons at very affordable rates.
                     </p>
                 </div>
-                <div class="course-enquiry-button">
-                    <a href="#">Enquire Now</a>
-                </div>
+                <button class="course-register-button crb2">Register</button>
             </div>
             <div class="course-container">
                 <div class="course-container-image">
@@ -164,9 +163,7 @@
                         training which are completely industry oriented.
                     </p>
                 </div>
-                <div class="course-enquiry-button">
-                    <a href="#">Enquire Now</a>
-                </div>
+                <button class="course-register-button crb3">Register</button>
             </div>
             <div class="course-container">
                 <div class="course-container-image">
@@ -183,13 +180,44 @@
                         professionals to enhance their career prospects.
                     </p>
                 </div>
-                <div class="course-enquiry-button">
-                    <a href="#">Enquire Now</a>
-                </div>
+                <button class="course-register-button crb4">Register</button>
             </div>
         </div>
     </section>
-
+    <div class="course-register-wrapper">
+        <div class="course-register-container">
+            <button class="course-register-close" >&times;</button> 
+            <form action="/" class="course-form">
+                
+                <div class="course-title">
+                    
+                    <i class="fas fa-pencil-alt"></i> 
+                    <h2>Register here</h2>
+                </div>
+                <div class="course-info">
+                    <input class="fname" type="text" name="name" placeholder="Full name">
+                    <input type="text" name="name" placeholder="Email">
+                    <input type="text" name="name" placeholder="Phone number">
+                    <input type="password" name="name" placeholder="Password">
+                    <select>
+                        <option value="course-type" selected>Course type*</option>
+                        <option value="short-courses">Ms Office</option>
+                        <option value="featured-courses">SAP</option>
+                        <option value="undergraduate">Animation</option>
+                        <option value="diploma">Web Design</option>
+                        <option value="certificate">C Programming</option>
+                        <option value="masters-degree">C++ Programming</option>
+                        <option value="postgraduate">Java</option>
+                        <option value="Python">Python</option>
+                        <option value="R">R Programming</option>
+                        <option value="Net">.Net</option>
+                    </select>
+                </div>
+                <button type="course-submit" class="course-submit" href="#">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="JavaScripts/CourseRegister.js"></script>
     <section id="why-us">
         <div class="section-heading-text">Why Us</div>
         <div class="why-us-main-container">
