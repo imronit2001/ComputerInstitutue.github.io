@@ -62,8 +62,8 @@ button#home-enquiry-button:hover{
 }
 .enquiry-container{
     background: #fff;
-    width: 560px;
-    max-width: 90%;
+    width: 400px;
+    max-width: 80%;
     padding: 20px;
     border-radius: 4px;
     position: relative;
