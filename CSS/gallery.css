@@ -1,14 +1,14 @@
 .gallery-main-container{
-    width: 100%;
+    width: 90%;
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 20px;
+    margin: 20px auto;
 }
 .gallery-container{
-    width: 400px;
+    width: 350px;
     margin: 20px;
 }
 .gallery-container img{
