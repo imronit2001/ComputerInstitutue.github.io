@@ -1,0 +1,110 @@
+.contact-us-main{
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contact-us-left{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 50%;
+    background:linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/bg.jpg") center center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.contact-us-left div{
+    margin:24px 0;
+}
+.contact-us-left h3{
+    color:#fff;
+    font-size:18px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+.contact-us-left p{
+    font-size: 16px;
+    line-height: 1.6;
+    color:#00ad5f;
+}
+.contact-us-right{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-right form{
+    background: none;
+    width: 80%;
+    /* margin: 20px; */
+    /* border: 2px solid red; */
+    margin-bottom: 0px;
+}
+.contact-us-form input, .contact-us-form textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    /* border: 2px solid #1c87c9;  */
+    outline: none; 
+    padding: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(88, 84, 84);
+    color:black;
+    }
+    .contact-us-form input::placeholder {
+    color: black;
+
+    }
+    .contact-us-form select{
+        padding: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #eee;
+    color:white;
+    }
+    .contact-us-submit {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background: #1c87c9; 
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        /* margin: 20px 25%; */
+        }
+        button.contact-us-submit:hover {
+        background: #2371a0;
+        }    
+
+    @media screen and (max-width:1200px){
+        .contact-us-main{
+          width:70%;
+        }
+      }
+      @media screen and (max-width:1000px){
+        .contact-us-main{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .contact-us-left{
+            padding: 5px;
+            margin-bottom: 20px;
+            
+        }
+
+      }
