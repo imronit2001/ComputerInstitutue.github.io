@@ -6,6 +6,9 @@
     background-repeat: no-repeat;
     position: relative;
 }
+#home img{
+    width: 100%;
+}
 .home-text{
     /* border: 2px solid red; */
     position: absolute;
