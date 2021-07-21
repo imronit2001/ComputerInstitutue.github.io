@@ -24,4 +24,6 @@
 .videos-container h1{
     text-align: center;
     margin: 5px;
+    font-family: 'Bona Nova', serif;
+    font-size: 25px;
 }
