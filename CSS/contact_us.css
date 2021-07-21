@@ -15,6 +15,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    padding: 10px;
 }
 .contact-us-left div{
     margin:24px 0;
