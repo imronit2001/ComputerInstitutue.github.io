@@ -4,7 +4,33 @@
 }
 body{
     width: 100%;
+    /* background-color: yellow; */
+    margin-right: 0px;
 }
+/* #courses{
+    background-color: red;
+}
+#why-us{
+    background-color: aqua;
+}
+#about-us{
+    background-color: green;
+}
+#gallery{
+    background-color: grey;
+}
+#videos{
+    background-color: rebeccapurple;
+}
+#testimonial{
+    background-color: aqua;
+}
+#contact-us{
+    background-color: red;
+}
+#footer{
+    background-color: green;
+} */
 header{
     /* border: 2px solid red; */
     display: flex;
