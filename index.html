@@ -49,7 +49,7 @@
             <img src="Images/logo1.jpg" alt="logo">
         </div>
         <div id="company-name">
-            Ronit Computer Institute
+            <div>Ronit Computer Institute</div>
             <pre>Sthirpara Road, Jagadal - 743127</pre>
         </div>
         <!-- <button class="btn__purple" id="trigger">&#9776;</button> -->
@@ -73,7 +73,8 @@
     </header>
     <section id="home">
         <img src="Images/CoverImage.jpg" alt="Image">
-        <div class="home-text">
+        <!-- <div id="particles-js"></div> -->
+        <div class="home-text" id="particles-js">
             <div class="home-greeting">
               Leading and Best <br> Computer Training Institute
             </div>
@@ -100,10 +101,10 @@
                           <div>
                             <textarea rows="4"></textarea>
                           </div>
-                          <audio id="audio1">
+                          <!-- <audio id="audio">
                               <source src="Music/song.mp3" type="audio/mpeg">
-                          </audio>
-                          <button class="enquire-submit" type="submit"  onclick="audio1.play()">Submit</button>
+                          </audio> -->
+                          <a href="#"><button class="enquire-submit" >Submit</button></a>
                         </form>
                       </div>
             </div>
@@ -111,11 +112,16 @@
         <script src="JavaScripts/EnquireNow.js"></script>
     </section>
     <script src="JavaScripts/EnquireNow.js"></script>
-    
-    
+    </div>
     <section id="courses">
+        
         <div class="section-heading-text">
-            <h1>Courses</h1>    
+            <div class="wrapper">
+                <ul class="dynamic-txts">
+                  <li><span>Courses</span></li>
+                </ul>
+              </div>
+            <!-- <h1>Courses</h1>     -->
         </div>
         <div id="course-main-container">
             <div class="course-container">
@@ -222,8 +228,16 @@
     <script src="JavaScripts/CourseRegister.js"></script>
     <section id="why-us">
         <div class="section-heading-text">
-            <h1>Why Us</h1>
+            <div class="wrapper">
+                <ul class="dynamic-txts">
+                  <li><span>Why Us</span></li>
+                </ul>
+              </div>
+            <!-- <h1>Courses</h1>     -->
         </div>
+        <!-- <div class="section-heading-text">
+            <h1>Why Us</h1>
+        </div> -->
         <div class="why-us-main-container">
             <div class="why-us-container">
                 <div class="why-us-container-image">
@@ -270,8 +284,16 @@
 
     <section id="about-us">
         <div class="section-heading-text">
-            <h1>About Us</h1>
+            <div class="wrapper">
+                <ul class="dynamic-txts">
+                  <li><span>About Us</span></li>
+                </ul>
+              </div>
+            <!-- <h1>Courses</h1>     -->
         </div>
+        <!-- <div class="section-heading-text">
+            <h1>About Us</h1>
+        </div> -->
         <div class="about-us-image">
             <img src="Images\AboutUs.jpg" alt="Images\AboutUs.jpg">
         </div>
@@ -293,7 +315,15 @@
 
     <section id="gallery">
         <div class="section-heading-text">
-            <h1>Gallery</h1>
+            <div class="wrapper">
+                <ul class="dynamic-txts">
+                  <li><span>Gallery</span></li>
+                </ul>
+              </div>
+            <!-- <h1>Courses</h1>     -->
+        </div>
+        <!-- <div class="section-heading-text">
+            <h1>Gallery</h1> -->
         </div>
         <div class="gallery-main-container">
             <div class="gallery-container gallery-slider" id="gallery-slider1">
@@ -310,8 +340,16 @@
     
     <section id="videos">
         <div class="section-heading-text">
-            <h1>Videos</h1>
+            <div class="wrapper">
+                <ul class="dynamic-txts">
+                  <li><span>Videos</span></li>
+                </ul>
+              </div>
+            <!-- <h1>Courses</h1>     -->
         </div>
+        <!-- <div class="section-heading-text">
+            <h1>Videos</h1>
+        </div> -->
         <div class="videos-main-container">
             <div class="videos-container">
                 <iframe  src="https://www.youtube.com/embed/AlJ99XQf2w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -335,8 +373,16 @@
 
     <section id="testimonial">
         <div class="section-heading-text">
-            <h1>Testimonials</h1>
+            <div class="wrapper">
+                <ul class="dynamic-txts">
+                  <li><span>Testimonials</span></li>
+                </ul>
+              </div>
+            <!-- <h1>Courses</h1>     -->
         </div>
+        <!-- <div class="section-heading-text">
+            <h1>Testimonials</h1>
+        </div> -->
         <div class="testimonial-main-container">
             <div class="testimonial-container">
                 <div class="testimonial-container-image">
@@ -383,8 +429,16 @@
 
     <section id="contact-us">
         <div class="section-heading-text">
-            <h1>Contact Us</h1>
+            <div class="wrapper">
+                <ul class="dynamic-txts">
+                  <li><span>Contact Us</span></li>
+                </ul>
+              </div>
+            <!-- <h1>Courses</h1>     -->
         </div>
+        <!-- <div class="section-heading-text">
+            <h1>Contact Us</h1>
+        </div> -->
         <div class="contact-us-main">
             <div class="contact-us-left">
                 <div class="info-container">
@@ -393,7 +447,7 @@
                         <h3>Bachelor of Computer Application</h3>
                         <p class="my-intro-p">Hi, I am a Frontend Web Developer. I teach Math, English, Physics, Chemistry (upto XII). 
                         <br> I also teach Programming Languages such as C , C++ and Java. </p>
-                        <a href="Files/Ronit_Singh_CV.PDF" target="_blank"><button class="cv" onclick="audio1.play()">My CV</button></a>
+                        <a href="Files/Ronit_Singh_CV.PDF" target="_blank"><button class="cv">My CV</button></a>
                             
                     </div>
                     <div> 
@@ -485,5 +539,7 @@
         </div>
     </div>
     <script src="JavaScripts/NavbarModal.js"></script>
+    <!-- <script src="JavaScripts/particles.js"></script>
+    <script src="JavaScripts/app.js"></script> -->
 </body>
 </html>

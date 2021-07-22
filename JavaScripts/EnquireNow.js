@@ -12,7 +12,7 @@ close.addEventListener('click', function(){
 });
 enquire_submit.addEventListener('click' , function(){
     enquiry_closeModal();
-})
+});
 enquiry_wrapper.addEventListener('click', function(e){
     if(e.target !== this) return;
     enquiry_closeModal();

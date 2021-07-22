@@ -1,6 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.wrapper{
+    display: flex;
+    margin: auto;
+    /* padding: 50px; */
+  }
+  .wrapper .static-txt{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .wrapper .dynamic-txts{
+    margin-left: 15px;
+    margin: auto;
+    height: 100px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    color: #ff0000;
+    font-family: 'Crimson Text', serif;
+   padding: 20px;
+   height: 100%;
+    font-size: 80px;
+   
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 15s steps(5) infinite;
+
+  }
+  @keyframes slide {
+      0%{
+          color: red;
+      }
+    20%{
+        color: aqua ;
+    }
+    40%{
+        color: blue ;
+    }
+    60%{
+        color: rgb(60, 255, 0) ;
+    }
+    80%{
+        color: rgb(245, 17, 245);
+    }
+    100%{
+        color: rgb(255, 251, 0);       
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 5s  infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+
+
 .section-heading-text{
     text-align: center;
     font-size: 35px;
+    margin: auto;
     margin-top: 30px;
 }
 #course-main-container{
@@ -13,6 +94,7 @@
     margin-top: 0px;
     
 }
+
 .course-container{
     /* border: 2px solid blue; */
     width: 250px;

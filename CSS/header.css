@@ -1,11 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* box-sizing: border-box; */
 }
 body{
     width: 100%;
     /* background-color: yellow; */
     margin-right: 0px;
+    /* background: #2d3436; */
+    /* overflow: hidden; */
 }
 .section-heading-text h1{
     font-family: 'Tangerine', cursive;
@@ -63,6 +66,32 @@ header{
     padding: 0% 2% 0% 2%;
     font-size:6vw;
     font-family: 'Great Vibes', cursive;
+}
+#company-name div{
+    font-size:6vw;
+    font-family: 'Great Vibes', cursive;
+    animation: CompanyName 12s infinite;
+}
+@keyframes CompanyName {
+        0%{
+            color: black ;
+        }
+        20%{
+            color: red ;
+        }
+        40%{
+            color: aqua;
+        }
+        60%{
+            color: green;
+        }
+        80%{
+            color: voilet ;
+        }
+        100%{
+            color: blue;
+        }
+    
 }
 #company-name pre{
     /* border: 2px solid rebeccapurple; */

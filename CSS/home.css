@@ -5,6 +5,8 @@
     background-size: 100% ;
     background-repeat: no-repeat;
     position: relative;
+    /* background: #2d3436; */
+    overflow: hidden;
 }
 #home img{
     width: 100%;
@@ -17,6 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 .home-greeting{
     /* border: 2px solid blue; */
