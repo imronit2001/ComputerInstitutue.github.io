@@ -41,3 +41,18 @@
     font-size: 20px;
     text-align: center;
 }
+@media screen and (max-width:1100px){
+    .about-us-image{
+        width: 60%;
+    }
+}
+@media screen and (max-width:800px) {
+    .about-us-image{
+        width: 80%;
+    }
+    .about-us-text{
+        padding: 15px;
+        margin: 0px 15px 15px 30px;
+    }
+    
+}

@@ -100,7 +100,10 @@
                           <div>
                             <textarea rows="4"></textarea>
                           </div>
-                          <button class="enquire-submit" type="submit" href="">Submit</button>
+                          <audio id="audio1">
+                              <source src="Music/song.mp3" type="audio/mpeg">
+                          </audio>
+                          <button class="enquire-submit" type="submit"  onclick="audio1.play()">Submit</button>
                         </form>
                       </div>
             </div>
@@ -108,25 +111,7 @@
         <script src="JavaScripts/EnquireNow.js"></script>
     </section>
     <script src="JavaScripts/EnquireNow.js"></script>
-    <button class="btn__purple" id="trigger">&#9776;</button>
-    <div class="modal__wrapper">
-        <div class="modal__container">
-            <div><button id="navbar-close">&times;</button></div>
-            <div>
-            <ul id="menu-bar">
-                <li><a href="#company-logo">Home</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#why-us">Why Us</a></li>
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#videos">Videos</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
-                <li><a href="#contact-us">Contact Us</a></li>
-            </ul>
-            </div>
-        </div>
-    </div>
-    <script src="JavaScripts/NavbarModal.js"></script>
+    
     
     <section id="courses">
         <div class="section-heading-text">
@@ -311,14 +296,14 @@
             <h1>Gallery</h1>
         </div>
         <div class="gallery-main-container">
-            <div class="gallery-container">
-                <img src="Images/GalleryImage1.jpg" alt="">
+            <div class="gallery-container gallery-slider" id="gallery-slider1">
+                <!-- <img src="Images/GalleryImage1.jpg" alt=""> -->
             </div>
-            <div class="gallery-container">
-                <img src="Images/GalleryImage2.jpg" alt="">
+            <div class="gallery-container gallery-slider" id="gallery-slider2">
+                <!-- <img src="Images/GalleryImage2.jpg" alt=""> -->
             </div>
-            <div class="gallery-container">
-                <img src="Images/GalleryImage3.jpg" alt="">
+            <div class="gallery-container gallery-slider" id="gallery-slider3">
+                <!-- <img src="Images/GalleryImage3.jpg" alt=""> -->
             </div>
         </div>
     </section>
@@ -403,6 +388,14 @@
         <div class="contact-us-main">
             <div class="contact-us-left">
                 <div class="info-container">
+                    <div class="my-intro">
+                        <h2>Ronit Singh</h2>
+                        <h3>Bachelor of Computer Application</h3>
+                        <p class="my-intro-p">Hi, I am a Frontend Web Developer. I teach Math, English, Physics, Chemistry (upto XII). 
+                        <br> I also teach Programming Languages such as C , C++ and Java. </p>
+                        <a href="Files/Ronit_Singh_CV.PDF" target="_blank"><button class="cv" onclick="audio1.play()">My CV</button></a>
+                            
+                    </div>
                     <div> 
                       <h3>Address</h3>
                       <p>Sthirpara Road, Kolkata - 743127, India</p>
@@ -411,7 +404,7 @@
                       <h3>Lets Talk</h3>
                       <p>+917003622801</p>
                     </div>
-                    <div> 
+                    <div class="email"> 
                       <h3>General Support</h3>
                       <p>ronitsingh7003@gmail.com</p>
                     </div>
@@ -472,6 +465,25 @@
             </div>
         </div>
     </footer>
-
+    <button class="btn__purple" id="trigger">&#9776;</button>
+    <div class="modal__wrapper">
+        <div class="modal__container">
+            <div><button id="navbar-close">&times;</button></div>
+            <div>
+            <ul id="menu-bar">
+                <li><a href="#company-logo">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+                <li><a href="https://forms.gle/EzVeiQ6f8j7o65Tz6">Feedback</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <script src="JavaScripts/NavbarModal.js"></script>
 </body>
 </html>

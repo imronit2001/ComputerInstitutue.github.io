@@ -56,6 +56,7 @@
 }
 .course-register-button:hover{
     background: #2371a0;
+    transform: scale(1.1);
 }
 .course-body{
     /* background: url("https://www.w3docs.com/uploads/media/default/0001/01/b5edc1bad4dc8c20291c8394527cb2c5b43ee13c.jpeg") no-repeat center; */
