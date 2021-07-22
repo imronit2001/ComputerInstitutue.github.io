@@ -91,6 +91,7 @@
     @media screen and (max-width:1200px){
         .contact-us-main{
           width:70%;
+          margin: auto;
         }
       }
       @media screen and (max-width:1000px){
@@ -101,6 +102,7 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            margin: auto;
         }
         .contact-us-left{
             padding: 5px;

@@ -7,6 +7,10 @@ body{
     /* background-color: yellow; */
     margin-right: 0px;
 }
+.section-heading-text h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+}
 /* #courses{
     background-color: red;
 }
