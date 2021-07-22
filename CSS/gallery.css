@@ -10,6 +10,7 @@
 .gallery-container{
     width: 350px;
     margin: 20px;
+    border-radius: 18px;    
 }
 .gallery-container img{
     border-radius: 15px;
@@ -62,69 +63,70 @@
     /* background-size: 100% 100%; */
     object-fit: cover;
     box-shadow: 1px 2px 10px 5px rgba(112, 98, 98, 0.541);
+    animation: slider3 20s infinite linear;
 }
 @keyframes slider1{
     0%{
-        background: url("/Images/GalleryImage1.jpg");
+        background: url("Images\GalleryImage1.jpg") no-repeat;
         object-fit: scale-down;
         background-size: 100%;
     }
     35%{
-        background: url("/Images/GalleryImage2.jpg");
+        background: url("Images\GalleryImage2.jpg") no-repeat;
         object-fit: scale-down;
         background-size: 100%;
     }
     75%{
-        background: url("/Images/GalleryImage3.jpg");
+        background: url("Images\GalleryImage3.jpg") no-repeat;
         object-fit: scale-down;
         background-size: 100%;
     }
     100%{
-        background: url("/Images/GalleryImage1.jpg");
+        background: url("Images\GalleryImage1.jpg") no-repeat;
         object-fit: scale-down;
         background-size: 100%;
     }
 }
 @keyframes slider2{
     0%{
-        background: url("/Images/GalleryImage2.jpg");
+        background: url("Images/GalleryImage2.jpg") no-repeat;
         object-fit: scale-down;
         background-size: 100%;
     }
     35%{
-        background: url("/Images/GalleryImage3.jpg");
+        background: url("Images/GalleryImage3.jpg") no-repeat;
         object-fit: scale-down;
         background-size: 100%;
     }
     75%{
-        background: url("/Images/GalleryImage1.jpg");
+        background: url("Images/GalleryImage1.jpg") no-repeat;
         object-fit: scale-down;
         background-size: 100%;
     }
     100%{
-        background: url("/Images/GalleryImage2.jpg");
+        background: url("Images/GalleryImage2.jpg") no-repeat;
         object-fit: scale-down;
         background-size: 100%;
     }
 }
 @keyframes slider3{
     0%{
-        background: url("/Images/GalleryImage3.jpg");
+        background: url("Images/GalleryImage3.jpg");
         object-fit: scale-down;
         background-size: 100%;
     }
     35%{
-        background: url("/Images/GalleryImage1.jpg");
+        background: url("Images/GalleryImage1.jpg");
         object-fit: scale-down;
         background-size: 100%;
     }
     75%{
-        background: url("/Images/GalleryImage2.jpg");
+        background: url("Images/GalleryImage2.jpg");
         object-fit: scale-down;
         background-size: 100%;
     }
     100%{
-        background: url("/Images/GalleryImage3.jpg");
+        background: url("Images/GalleryImage3.jpg");
         object-fit: scale-down;
         background-size: 100%;
     }

@@ -3,6 +3,8 @@
     display: flex;
     margin: auto;
     /* padding: 50px; */
+    /* overflow: hidden; */
+
   }
   .wrapper .static-txt{
     color: #fff;
@@ -12,8 +14,8 @@
   .wrapper .dynamic-txts{
     margin-left: 15px;
     margin: auto;
-    height: 100px;
-    line-height: 90px;
+    height: 90px;
+    line-height: 70px;
     overflow: hidden;
   }
   .dynamic-txts li{
@@ -21,8 +23,8 @@
     color: #ff0000;
     font-family: 'Crimson Text', serif;
    padding: 20px;
-   height: 100%;
-    font-size: 80px;
+   /* height: 100%; */
+    font-size: 60px;
    
     font-family: 'Crimson Text', serif;
 
@@ -55,7 +57,7 @@
   .dynamic-txts li span{
     position: relative;
     margin: 5px 0;
-    line-height: 90px;
+    line-height: 70px;
   }
   .dynamic-txts li span::after{
     content: "";
@@ -83,6 +85,8 @@
     font-size: 35px;
     margin: auto;
     margin-top: 30px;
+    overflow: hidden;
+    
 }
 #course-main-container{
     /* border: 2px solid red; */
