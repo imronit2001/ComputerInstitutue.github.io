@@ -171,14 +171,13 @@
 }
 .course-register-container{
     background: #fff;
-    width: 400px;
+    width: 45%;
     max-width: 90%;
     padding: 0px;
     border-radius: 4px;
     position: relative;
     transform: translateY(-100%);
     transition: all .3s ease-in-out;
-    
     
 }
 .course-register-container button.course-register-close {
@@ -209,8 +208,9 @@
     box-shadow: 0 2px 5px #f5f5f5; 
     background: #08020279;     
     /* background: url("https://www.w3docs.com/uploads/media/default/0001/01/b5edc1bad4dc8c20291c8394527cb2c5b43ee13c.jpeg")  center; */
-    width: 85%;
-    margin: 5px;
+    width: 80%;
+    /* margin: 10px 0px 10px 10px; */
+    /* margin: auto; */
 }
 .course-title{
     display: flex;
@@ -302,7 +302,24 @@
     margin-left: 28%;
     }
     }
-
+    @media screen and (max-width:1200px){
+        .course-register-container{
+          width:50%;
+          margin: auto;
+        }
+      }
+      @media screen and (max-width:1000px){
+        .course-register-container{
+            width: 60%;
+            margin: auto;
+        }
+      }
+      @media screen and (max-width:800px){
+        .course-register-container{
+            width: 80%;
+            margin: auto;
+        }
+      }
 
 
 
