@@ -24,11 +24,11 @@ body{
     position: relative;
     /* overflow: visible; */
     /* border: 2px solid yellow; */
-    width: 400px;
+    width:350px;
     height: 400px;
     margin: auto auto;
     margin-top: 10%;
-    top: 35%;   
+    /* top: 35%;    */
     /* left: 35%; */
     display: flex;
     flex-direction: column;
