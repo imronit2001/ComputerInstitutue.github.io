@@ -48,6 +48,8 @@ h2{
     top: 0;
     margin: 2%;
     padding: 2%;
+    text-align: center;
+    font-size: 25px;
 }
 h3{
     color: white;
