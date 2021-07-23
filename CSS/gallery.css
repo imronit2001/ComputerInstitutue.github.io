@@ -23,7 +23,12 @@
     box-shadow: 1px 2px 10px 5px rgba(112, 98, 98, 0.541);
 }
 @media screen and (max-width:800px){
-    
+    .gallery-container{
+        width: 250px;
+        /* margin: 20px; */
+        border-radius: 18px;    
+        /* border: 2px solid blue; */
+    }
 }
 
 @media screen and (max-width:600px){
