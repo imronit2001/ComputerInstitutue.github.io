@@ -5,7 +5,7 @@
     width: 60%;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .contact-us-left{
     /* border: 2px solid blue; */
@@ -16,6 +16,9 @@
     justify-content:center;
     align-items:center;
     padding: 10px;
+}
+.my-intro{
+    padding-right: 20px;
 }
 .my-intro h2{
     color: white;
@@ -91,17 +94,21 @@
         padding: 10px;
         border: none;
         background: #1c87c9; 
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 400;
         color: #fff;
         /* margin: 20px 25%; */
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
         }
-        button.contact-us-submit:hover {
+        .contact-us-submit:hover {
         background: #2371a0;
         transform: scale(1.1);
         }    
 
-
+        
     @media screen and (max-width:1200px){
         .contact-us-main{
           width:70%;
@@ -129,7 +136,7 @@
 
       }
       .my-intro{
-          padding: 10px 15px 10px 10px;
+          padding: 0px 15px 10px 10px;
       }
       .my-intro p{
         font-size: 25px;
@@ -159,4 +166,9 @@
     }
     .email p{
         /* cursor: pointer; */
+    }
+    @media screen and (max-width:800px){
+        .my-intro{
+            padding-right: 45px;
+        }
     }

@@ -6,6 +6,9 @@
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
+    margin-bottom: 15px;
+    flex-direction: column;
+    margin-top: 25px;
 }
 .footer-left{
     /* border: 2px solid red; */
@@ -27,17 +30,22 @@
     margin-left: 30px;
     margin: auto;
     padding-bottom: 0px;
+    
 }
 .footer-right-down{
-    font-size: 30px;
+    font-size: 15px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+    text-align: center;
 }
 .footer-right-down pre{
     font-size: 2vw;
     text-align: center;
 }
+
 .footer-name{
     text-align: center;
     font-size: 30px;
@@ -111,4 +119,18 @@
 }
 .fa-twitter{
     color: #0097e6;
+}
+.signature{
+    text-align: right;
+    margin: 5px 40px;
+    font-size: 20px;
+}
+.signature strong{
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+@media screen and (max-width:800px){
+    .signature{
+        font-size: 15px;
+    }
 }
