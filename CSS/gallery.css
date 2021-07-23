@@ -11,6 +11,7 @@
     width: 300px;
     margin: 20px;
     border-radius: 18px;    
+    /* border: 2px solid blue; */
 }
 .gallery-container img{
     width: 100%;
@@ -22,67 +23,15 @@
     box-shadow: 1px 2px 10px 5px rgba(112, 98, 98, 0.541);
 }
 @media screen and (max-width:800px){
-    .gallery-main-container{
-        flex-direction: column;
-    }
-  .gallery-container{
-      width: 300px;
-      height: auto;
-      margin: 1% 1% 10% 1%;
-      /* margin-left */
-      /* margin-bottom: 35px; */
-      object-fit: cover;
-      /* border: 2px solid red; */
-  }
-  .gallery-container img{
-    width: 100%;
-    border-radius: 15px;
-    object-fit: cover;
-    box-shadow: 1px 3px 9px 2px rgb(112 98 98 / 54%);
-}
-  
+    
 }
 
 @media screen and (max-width:600px){
-    .gallery-main-container{
-        flex-direction: column;
-    }
-  .gallery-container{
-      width: 200px;
-      height: auto;
-      margin: 1% 1% 10% 1%;
-      /* margin-left */
-      /* margin-bottom: 35px; */
-      object-fit: cover;
-      /* border: 2px solid red; */
-  }
-  .gallery-container img{
-    width: 100%;
-    border-radius: 15px;
-    object-fit: cover;
-    box-shadow: 1px 3px 9px 2px rgb(112 98 98 / 54%);
-}
+    
   
 }
 @media screen and (max-width:300px){
-    .gallery-main-container{
-        flex-direction: column;
-    }
-  .gallery-container{
-      width: 200px;
-      height: auto;
-      margin: 1% 1% 10% 1%;
-      /* margin-left */
-      /* margin-bottom: 35px; */
-      object-fit: cover;
-      /* border: 2px solid red; */
-  }
-  .gallery-container img{
-    width: 100%;
-    border-radius: 15px;
-    object-fit: cover;
-    box-shadow: 1px 3px 9px 2px rgb(112 98 98 / 54%);
-}
+    
   
 }
 /* .gallery-slider{
@@ -101,97 +50,3 @@
     box-shadow: 1px 2px 10px 5px rgba(112, 98, 98, 0.541);
     animation: slider 15s infinite linear;
 } */
-#gallery-slider1{
-    width: 350px;
-    height: 200px;
-    animation: slider1 20s infinite linear;
-    background: url("Images/GalleryImage1.jpg") no-repeat;
-    /* background-size: 100% 100%; */
-    object-fit: cover;
-    box-shadow: 1px 2px 10px 5px rgba(112, 98, 98, 0.541);
-}
-#gallery-slider2{
-    width: 350px;
-    height: 200px;
-    animation: slider2 20s infinite linear;
-    background: url("Images/GalleryImage2.jpg") no-repeat;
-    /* background-size: 100% 100%; */
-    object-fit: cover;
-    box-shadow: 1px 2px 10px 5px rgba(112, 98, 98, 0.541);
-}
-#gallery-slider3{
-    width: 350px;
-    height: 200px;
-    animation: slider3 20s infinite linear;
-    background: url("Images/GalleryImage3.jpg") no-repeat;
-    /* background-size: 100% 100%; */
-    object-fit: cover;
-    box-shadow: 1px 2px 10px 5px rgba(112, 98, 98, 0.541);
-    animation: slider3 20s infinite linear;
-}
-@keyframes slider1{
-    0%{
-        background: url("Images\GalleryImage1.jpg") no-repeat;
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-    35%{
-        background: url("Images\GalleryImage2.jpg") no-repeat;
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-    75%{
-        background: url("Images\GalleryImage3.jpg") no-repeat;
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-    100%{
-        background: url("Images\GalleryImage1.jpg") no-repeat;
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-}
-@keyframes slider2{
-    0%{
-        background: url("Images/GalleryImage2.jpg") no-repeat;
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-    35%{
-        background: url("Images/GalleryImage3.jpg") no-repeat;
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-    75%{
-        background: url("Images/GalleryImage1.jpg") no-repeat;
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-    100%{
-        background: url("Images/GalleryImage2.jpg") no-repeat;
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-}
-@keyframes slider3{
-    0%{
-        background: url("Images/GalleryImage3.jpg");
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-    35%{
-        background: url("Images/GalleryImage1.jpg");
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-    75%{
-        background: url("Images/GalleryImage2.jpg");
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-    100%{
-        background: url("Images/GalleryImage3.jpg");
-        object-fit: scale-down;
-        background-size: 100%;
-    }
-}
