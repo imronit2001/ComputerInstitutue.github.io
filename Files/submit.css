@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     /* height: 100%; */
@@ -24,7 +25,7 @@ body{
     position: relative;
     /* overflow: visible; */
     /* border: 2px solid yellow; */
-    width:350px;
+    width:340px;
     height: 400px;
     margin: auto auto;
     margin-top: 10%;
@@ -54,12 +55,12 @@ h2{
 h3{
     color: white;
     top: 0;
-    margin: 2%;
+    margin: 3%;
     padding: 2%;
 }
 h4{
     color: white;
-    margin: 2%;
+    margin: 3%;
     padding: 2%;
     font-size: 40px;
 }
